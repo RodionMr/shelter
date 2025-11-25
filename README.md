@@ -1,13 +1,10 @@
 # **Shelter** 
 
-![shelter](https://github.com/RodionMar/shelter/assets/68332435/cc7cd5ed-7778-4cbf-8445-00131a5d862a)
-
-
 📋 Task: [Rolling Scopes School](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/shelter/shelter.md)
 
 🖼 Maket (PerfectPixel): [Figma](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter?type=design&node-id=94-43&mode=design)
 
-💻 Deploy (Multipage): [Link](https://duxcoder.github.io/shelter)
+💻 Deploy (Multipage): [Link](https://rodionmr.github.io/shelter/)
 
 
 
