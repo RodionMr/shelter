@@ -1,13 +1,54 @@
-@@include('../../parts/head.html', {
-"favicon": "../images/fav.svg",
-"classPage": "pets",
-"petsActive" : "navigation__link_active",
-"logo-link": "../index.html",
-"styleSrc": "../style.css",
-"srcAboutShelter": '../index.html',
-"srcPets": '#no_scroll',
-"srcHelp": '../#help'
-})
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shelter for pets in Boston">
+  <link rel="icon" href=../images/fav.svg />
+  <link rel="stylesheet" href="../style.css" />
+  <title>Shelter</title>
+</head>
+
+<body>
+  <div class="pop-up-container">
+  </div>
+  <header class="header pets">
+    <div class="container">
+      <div class="top-bar">
+        <a href="../index.html" class="top-bar__logo-box">
+          <span class="top-bar__logo">Cozy House</span>
+          <p class="top-bar__descr">Shelter for pets in Boston</p>
+        </a>
+        <div class="menu-wrapper">
+          <div class="hamburger-menu"></div>
+        </div>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__li">
+              <a href="../index.html" class="navigation__link @@aboutActive">
+                About the shelter
+              </a>
+            </li>
+            <li class="navigation__li">
+              <a href="#no_scroll" class="navigation__link navigation__link_active">
+                Our pets
+              </a>
+            </li>
+            <li class="navigation__li">
+              <a href="../#help" class="navigation__link">
+                Help the shelter
+              </a>
+            </li>
+            <li class="navigation__li">
+              <a href="#contacts" class="navigation__link"> Contacts </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 <main class="main pets">
   <section class="our-friends-section">
     <div class="container">
@@ -86,6 +127,38 @@
     </div>
   </section>
 </main>
-@@include('../../parts/footer.html', {
-'scriptSrc': '../script.js',
-})
+<footer id="contacts" class="footer bg-pattern">
+  <div class="container pos-rel-inx-2">
+    <div class="footer-content">
+      <div class="footer-content__questions footer-content__item">
+        <h3 class="footer-content__title">For questions and suggestions</h3>
+        <a href="mailto:email@shelter.com" class="footer-content__item-link">
+          <span class="footer-content__icon i_mail"></span>
+          <span class="footer-content__text">email@shelter.com</span>
+        </a>
+        <a href="tel:+136745677554" class="footer-content__item-link">
+          <span class="footer-content__icon i_tel"></span>
+          <span class="footer-content__text">+13 674 567 75 54</span>
+        </a>
+      </div>
+      <div class="footer-content__address footer-content__item">
+        <h3 class="footer-content__title">We are waiting for your visit</h3>
+        <a href="https://www.google.com/maps/place/1+Centre+St,+Boston,+MA+02119,+%D0%A1%D0%A8%D0%90/@42.3300628,-71.0920028,17z/data=!3m1!4b1!4m6!3m5!1s0x89e37a260516d22d:0x67663c18c6a54ce9!8m2!3d42.3300628!4d-71.0920028!16s%2Fg%2F11td12jd0m"
+          target="_blank" class="footer-content__item-link">
+          <span class="footer-content__icon i_map"></span>
+          <span class="footer-content__text">1 Central Street, Boston (entrance from the store)</span>
+        </a>
+        <a href="https://www.google.com/maps/place/18+S+Park+Cres,+London+SE6+1JW,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/data=!4m2!3m1!1s0x47d8a9e35f520529:0x8d1b5611767e32ec?sa=X&ved=2ahUKEwjIlr6-3uj9AhVX_ioKHX4eCTgQ8gF6BAgUEAI"
+          target="_blank" class="footer-content__item-link">
+          <span class="footer-content__icon i_map"></span>
+          <span class="footer-content__text">18 South Park, London </span>
+        </a>
+      </div>
+      <div class="footer-content__dog"></div>
+    </div>
+  </div>
+</footer>
+<script src=../script.js></script>
+</body>
+
+</html>
