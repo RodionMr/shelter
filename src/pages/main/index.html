@@ -1,0 +1,157 @@
+@@include('../../parts/head.html', {
+"favicon": "./images/fav.svg",
+"classPage": "",
+"aboutActive" : "navigation__link_active",
+"logo-link": "#no_scroll",
+"styleSrc": "./style.css",
+"srcAboutShelter": '#no_scroll',
+"srcPets": './pets/index.html',
+"srcHelp": '#help'
+})
+<main class="main">
+  <section class="not-only-section bg-pattern">
+    <div class="container pos-rel-inx-2">
+      <div class="not-only">
+        <div class="start-screen">
+          <h1 class="start-screen__title">Not only people need a house</h1>
+          <p class="start-screen__descr">
+            We offer to give a chance to a little and nice puppy with an
+            extremely wide and open heart. He or she will love you more than
+            anybody else in the world, you will see!
+          </p>
+          <a href="#our-friends" class="btn btn__fill">Make a friend</a>
+        </div>
+        <div class="start-screen-dog"></div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="about-section">
+        <img src="./images/dog-cat.webp" alt="Dog and cat" class="about-section__pictures" />
+        <div class="about-section__content">
+          <h3 class="about-section__title">
+            About the shelter “Cozy House”
+          </h3>
+          <p class="text">
+            Currently we have 121 dogs and 342 cats on our hands and
+            statistics show that only 20% of them will find a family. The
+            others will continue to live with us and will be waiting for a
+            lucky chance to become dearly loved.
+          </p>
+          <p class="text">
+            We feed our wards with the best food and make sure that they do
+            not get sick, feel comfortable (including psychologically) and
+            well. We are supported by 87 volunteers and 28 employees of
+            various skill levels. About 12% of the animals are taken by the
+            shelter staff. Taking care of the animals, they become attached
+            to the pets and would hardly ever leave them alone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="our-friends" class="our-friends-section">
+    <div class="container">
+      <div class="our-friends">
+        <h3 class="our-friends__title">
+          Our friends who are&nbsp;looking for a house
+        </h3>
+        <div class="our-friends__slider">
+          <div class="slider__pagination">
+            <button class="btn-circle btn-circle__transparent arrow-left" aria-label="Previous"></button>
+            <button class="btn-circle btn-circle__transparent arrow-right" aria-label="Next"></button>
+          </div>
+          <div class="overflow_slider">
+            <div class="slider__items">
+              <div class="slider__item card">
+                <img src="./images/katrine.webp" alt="pet" class="card__pic" />
+                <div class="card__title">Katrine</div>
+                <button class="btn btn__transparent" aria-label="More">Learn more</button>
+              </div>
+              <div class="slider__item card">
+                <img src="./images/jennifer.webp" alt="pet" class="card__pic" />
+                <div class="card__title">Jennifer</div>
+                <button class="btn btn__transparent" aria-label="More">Learn more</button>
+              </div>
+              <div class="slider__item card">
+                <img src="./images/woody.webp" alt="pet" class="card__pic" />
+                <div class="card__title">Woody</div>
+                <button class="btn btn__transparent" aria-label="More">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="./pets/index.html" class="btn btn__fill">Get to know the rest</a>
+      </div>
+    </div>
+  </section>
+  <section id="help" class="you-can-help-section">
+    <div class="container">
+      <div class="you-can-help">
+        <h3 class="you-can-help__title">How you can help our shelter</h3>
+        <div class="you-can-help__items">
+          <div class="you-can-help__item">
+            <div class="item-icon item_food"></div>
+            <span class="item_title">Pet food</span>
+          </div>
+          <div class="you-can-help__item">
+            <div class="item-icon item_transport"></div>
+            <span class="item_title">Transportation</span>
+          </div>
+          <div class="you-can-help__item">
+            <div class="item-icon item_toys"></div>
+            <span class="item_title">Toys</span>
+          </div>
+          <div class="you-can-help__item">
+            <div class="item-icon item_bowls"></div>
+            <span class="item_title">Bowls and cups</span>
+          </div>
+          <div class="you-can-help__item ">
+            <div class="item-icon item_shampoo"></div>
+            <span class="item_title">Shampoos</span>
+          </div>
+          <div class="you-can-help__item ">
+            <div class="item-icon item_vitamins"></div>
+            <span class="item_title">Vitamins</span>
+          </div>
+          <div class="you-can-help__item ">
+            <div class="item-icon item_medic"></div>
+            <span class="item_title">Medicines</span>
+          </div>
+          <div class="you-can-help__item">
+            <div class="item-icon item_collars"></div>
+            <span class="item_title">Collars / leashes</span>
+          </div>
+          <div class="you-can-help__item">
+            <div class="item-icon item_sleep"></div>
+            <span class="item_title">Sleeping areas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="donation-section">
+    <div class="container">
+      <div class="donation">
+        <div class="donation__dog"></div>
+        <div class="donation__content">
+          <h3 class="donation__title">You can also make a donation</h3>
+          <span class="donation__bank-name">Name of the bank / Type of bank account</span>
+          <a href="#no_scroll" class="donation__bank-card">
+            8380 2880 8028 8791 7435
+          </a>
+          <div class="donation__legal-info">
+            Legal information and lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Maecenas a ipsum at libero sagittis dignissim
+            sed ac diam. Praesent ultrices maximus tortor et vulputate.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+@@include('../../parts/footer.html', {
+'scriptSrc': './script.js'
+})

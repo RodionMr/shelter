@@ -1,0 +1,91 @@
+@@include('../../parts/head.html', {
+"favicon": "../images/fav.svg",
+"classPage": "pets",
+"petsActive" : "navigation__link_active",
+"logo-link": "../index.html",
+"styleSrc": "../style.css",
+"srcAboutShelter": '../index.html',
+"srcPets": '#no_scroll',
+"srcHelp": '../#help'
+})
+<main class="main pets">
+  <section class="our-friends-section">
+    <div class="container">
+      <div class="our-friends">
+        <h1 class="our-friends__title">
+          Our friends who are&nbsp;looking for a house
+        </h1>
+        <div class="our-friends__cards">
+          <div class="slider__item card">
+            <img src="../images/katrine.webp" alt="Pet Katrine" class="card__pic" />
+            <div class="card__title">Katrine</div>
+            <button data-showcard="katrine" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/jennifer.webp" alt="Pet Jennifer" class="card__pic" />
+            <div class="card__title">Jennifer</div>
+            <button data-showcard="jennifer" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/woody.webp" alt="Pet Woody" class="card__pic" />
+            <div class="card__title">Woody</div>
+            <button data-showcard="woody" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/sophia.webp" alt="Pet Sophia" class="card__pic" />
+            <div class="card__title">Sophia</div>
+            <button data-showcard="sophia" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/timmy.webp" alt="Pet Timmy" class="card__pic" />
+            <div class="card__title">Timmy</div>
+            <button data-showcard="timmy" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/charly.webp" alt="Pet Charly" class="card__pic" />
+            <div class="card__title">Charly</div>
+            <button data-showcard="charly" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/scarlett.webp" alt="Pet Scarlett" class="card__pic" />
+            <div class="card__title">Scarlett</div>
+            <button data-showcard="scarlett" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+          <div class="slider__item card">
+            <img src="../images/freddie.webp" alt="Pet Freddie" class="card__pic" />
+            <div class="card__title">Freddie</div>
+            <button data-showcard="freddie" class="btn btn__transparent" aria-label="More">
+              Learn more
+            </button>
+          </div>
+        </div>
+        <div class="our-friends__pagination">
+          <button aria-label="first" data-btn="first"
+            class="btn-circle btn-circle__transparent btn-circle__inactive">&lt;&lt;</button>
+          <button aria-label="prev" data-btn="prev"
+            class="btn-circle btn-circle__transparent btn-circle__inactive">&lt;</button>
+          <button aria-label="current" data-btn="current" class="btn-circle btn-circle__active">1</button>
+          <button aria-label="next" data-btn="next" class="btn-circle btn-circle__transparent">&gt;</button>
+          <button aria-label="last" data-btn="last" class="btn-circle btn-circle__transparent">&gt;&gt;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+@@include('../../parts/footer.html', {
+'scriptSrc': '../script.js',
+})
